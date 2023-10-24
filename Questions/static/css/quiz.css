@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formSteps{
+    display: flex;
+    gap: 30px;
+}
+
+.formSteps .active{
+    font-weight: bold;
+}
+
+.formStep {display: none;}
+
+.formStep.active{
+    display: block;
+}
